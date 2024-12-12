@@ -43,7 +43,7 @@
                     </div> <!--end::Row-->
                 </form>
                 <p class="mb-1"> <a href="forgot-password.html">Olvidé mi contraseña</a> </p>
-                <p class="mb-0"> <a href="register.html" class="text-center">
+                <p class="mb-0"> <a href="register.php" class="text-center">
                         Registrarme
                     </a> </p>
             </div> <!-- /.login-card-body -->

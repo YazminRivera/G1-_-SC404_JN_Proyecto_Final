@@ -1,5 +1,5 @@
 <?php
-require_once "../../config/Conexion.php";
+require_once "./../config/Conexion.php";
 
 class GestionUsuarioModel
 {
@@ -63,6 +63,25 @@ class GestionUsuarioModel
     {
         return $this->PAISES_ID_PAIS_FK;
     }
+    public function setPROVINCIAS_ID_PROVINCIA_FK($PROVINCIAS_ID_PROVINCIA_FK)
+    {
+        $this->PROVINCIAS_ID_PROVINCIA_FK = $PROVINCIAS_ID_PROVINCIA_FK;
+    }
+    public function getPROVINCIAS_ID_PROVINCIA_FK()
+    {
+        return $this->PROVINCIAS_ID_PROVINCIA_FK;
+    }
+    public function setCALLES_ID_CALLE_FK($CALLES_ID_CALLE_FK)
+    {
+        $this->CALLES_ID_CALLE_FK = $CALLES_ID_CALLE_FK;
+    }
+    public function getCALLES_ID_CALLE_FK()
+    {
+        return $this->CALLES_ID_CALLE_FK;
+    }
+    
+
+
 
     public static function traerUsuario()
     {
